@@ -29,7 +29,7 @@ const blockFormSnippet = `<AsyncButton
 </AsyncButton>`;
 
 const Spinner = () => (
-  <div className="spinner">
+  <div className="spinner"> 
     <div className="double-bounce1" />
     <div className="double-bounce2" />
   </div>

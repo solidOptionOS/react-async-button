@@ -90,7 +90,7 @@ export default class AsyncButton extends React.Component {
           [rejectedClass]: isRejected,
         })}
         disabled={isDisabled}
-        onClick={event => this.handleClick(event)}
+        onClick={event => this.handleClick(event)} 
       >
         {typeof children === 'function'
           ? children({

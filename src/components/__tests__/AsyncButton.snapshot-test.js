@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 
 const expectToMatchSnapshot = component => {
   expect(renderer.create(component).toJSON()).toMatchSnapshot();
-};
+}; 
 
 describe('<AsyncButton /> Snapshots', () => {
   it('should have sane defaults', () => {
